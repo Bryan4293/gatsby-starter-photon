@@ -65,11 +65,6 @@ class Homepage extends React.Component {
                                         </svg></li>
                             </ul>
                         </div>
-                        {/* <div className="col-6">
-                            <header className="major">
-                                <h2>Skills</h2>
-                            </header>
-                         </div> */}
                     </div>
                     
                 </section>
@@ -84,7 +79,7 @@ class Homepage extends React.Component {
                         </div>
 
                         <div className="col-4">
-                            <span className="image fit"><img src={DevPic2} alt="" /></span>
+                            <span className="image fit"><img src={DevPic2} alt="DevLink" /></span>
                             <h3>Profile Page</h3>
                             <p>Set up your information.</p>
                             {/* <ul className="actions">
@@ -92,7 +87,7 @@ class Homepage extends React.Component {
                             </ul> */}
                         </div>
                         <div className="col-4">
-                            <span className="image fit"><img src={DevPic3} alt="" /></span>
+                            <span className="image fit"><img src={DevPic3} alt="DevLink" /></span>
                             <h3>Job listings Page</h3>
                             <p>Find jobs around your area.</p>
                             {/* <ul className="actions">
@@ -100,7 +95,7 @@ class Homepage extends React.Component {
                             </ul> */}
                         </div>
                         <div className="col-4">
-                            <span className="image fit"><img src={DevPic4} alt="" /></span>
+                            <span className="image fit"><img src={DevPic4} alt="DevLink" /></span>
                             <h3>Chat Room</h3>
                             <p>Connect and chat with Employers.</p>
                             {/* <ul className="actions">
